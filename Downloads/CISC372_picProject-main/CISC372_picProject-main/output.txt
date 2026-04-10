@@ -1,0 +1,10 @@
+Script started on Fri Apr 10 15:36:54 2026
+]0;macklin@r1n01.darwin:~/CISC372_picProject/Downloads/CISC372_picProject-main/CISC372_picProject-main[?1034h[macklin@r1n01 CISC372_picProject-main]$ export OMP_bun   NUM_THREADS=$SLURM_CPUS_PER_TASK
+]0;macklin@r1n01.darwin:~/CISC372_picProject/Downloads/CISC372_picProject-main/CISC372_picProject-main[macklin@r1n01 CISC372_picProject-main]$ srun ./image_pthreads pic1.jpg edge
+Took 6 seconds
+]0;macklin@r1n01.darwin:~/CISC372_picProject/Downloads/CISC372_picProject-main/CISC372_picProject-main[macklin@r1n01 CISC372_picProject-main]$ srun ./image_openMP pic1.jpg edge
+Took 5 seconds
+]0;macklin@r1n01.darwin:~/CISC372_picProject/Downloads/CISC372_picProject-main/CISC372_picProject-main[macklin@r1n01 CISC372_picProject-main]$ exit
+exit
+
+Script done on Fri Apr 10 15:37:59 2026
